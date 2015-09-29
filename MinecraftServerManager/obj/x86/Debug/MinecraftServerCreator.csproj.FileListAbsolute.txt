@@ -1,0 +1,36 @@
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\bin\Debug\MinecraftServerCreator.exe
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\bin\Debug\MinecraftServerCreator.pdb
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.MainWindow.resources
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.NewServer.resources
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Properties.Resources.resources
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.csproj.GenerateResource.Cache
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.exe
+C:\Users\Piotrek\AppData\Local\Temporary Projects\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.pdb
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.exe
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.pdb
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\MinecraftServerCreator.exe
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\MinecraftServerCreator.pdb
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.MainWindow.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.NewServer.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Properties.Resources.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.csproj.GenerateResource.Cache
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.csprojResolveAssemblyReference.cache
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Controls.ServersTreeView.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Controls.ServerConfiguration.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Dialogs.TextInput.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Controls.TextEditor.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Controls.Console.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Debug\MinecraftServerCreator.Controls.Tab.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\FastColoredTextBox.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\AutoUpdater.NET.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\AutoUpdater.NET.pdb
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\AutoUpdater.NET.xml
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\da\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\de\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\es\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\fr\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\nl\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\pl\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\ru\AutoUpdater.NET.resources.dll
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Debug\sv\AutoUpdater.NET.resources.dll

@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5AC3C2F4-6DEC-436D-BDD3-B1F49196CE7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinecraftServerManager</RootNamespace>
+    <AssemblyName>MinecraftServerManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>MinecraftServerManager.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastColoredTextBox, Version=2.15.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\FastColoredTextBoxDemo\FastColoredTextBoxDemo\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ProgressButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ServersTreeNodes\PropertiesNode.cs" />
+    <Compile Include="Controls\Tabs\ConnectLocalServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\ConnectLocalServer.Designer.cs">
+      <DependentUpon>ConnectLocalServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\ConnectRemoteServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\ConnectRemoteServer.Designer.cs">
+      <DependentUpon>ConnectRemoteServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\Console.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\Console.Designer.cs">
+      <DependentUpon>Console.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\EngineEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\EngineEditor.Designer.cs">
+      <DependentUpon>EngineEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Menus\AddServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\NewLocalServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\NewLocalServer.Designer.cs">
+      <DependentUpon>NewLocalServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewStyle.Designer.cs">
+      <DependentUpon>NewStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\RemoteConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\RemoteConsole.Designer.cs">
+      <DependentUpon>RemoteConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ServersTreeNodes\ConsoleNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\DirectoryNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\FakeChildNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\FileNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\RemoteConsoleNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\RemoteDirectoryNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\RemoteFileNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\RemoteServerNode.cs" />
+    <Compile Include="Controls\ServersTreeNodes\ServerNode.cs" />
+    <Compile Include="Controls\ServersTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Style.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Style.Designer.cs">
+      <DependentUpon>Style.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\PropertiesEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\PropertiesEditor.Designer.cs">
+      <DependentUpon>PropertiesEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\StyleEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\StyleEditor.Designer.cs">
+      <DependentUpon>StyleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\License.cs" />
+    <Compile Include="Data\Server.cs" />
+    <Compile Include="Data\RemoteServer.cs" />
+    <Compile Include="Data\RemoteServerRcon.cs" />
+    <Compile Include="Data\Style.cs" />
+    <Compile Include="Data\Styles.cs" />
+    <Compile Include="Data\Tab.cs" />
+    <Compile Include="Data\Tabs.cs" />
+    <Compile Include="Dialogs\FtpUploader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FtpUploader.Designer.cs">
+      <DependentUpon>FtpUploader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FtpDownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FtpDownloader.Designer.cs">
+      <DependentUpon>FtpDownloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\License.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\License.Designer.cs">
+      <DependentUpon>License.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TextInput.cs" />
+    <Compile Include="Dialogs\TextInput.Designer.cs">
+      <DependentUpon>TextInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parsers\Log.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\Tabs\TextEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Colors.cs" />
+    <Compile Include="Utils\Ftp.cs" />
+    <Compile Include="Utils\Icons.cs" />
+    <Compile Include="Utils\Main.cs" />
+    <Compile Include="Utils\MinecraftRcon\RconExtensions.cs" />
+    <Compile Include="Utils\MinecraftRcon\RconClient.cs" />
+    <Compile Include="Utils\MinecraftRcon\RconMessageAnswer.cs" />
+    <Compile Include="Utils\MinecraftRcon\RconMessageType.cs" />
+    <Compile Include="Utils\MinecraftRcon\RconReader.cs" />
+    <Compile Include="Utils\Strings.cs" />
+    <EmbeddedResource Include="Controls\Tabs\ConnectLocalServer.resx">
+      <DependentUpon>ConnectLocalServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\ConnectRemoteServer.resx">
+      <DependentUpon>ConnectRemoteServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\Console.resx">
+      <DependentUpon>Console.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\EngineEditor.resx">
+      <DependentUpon>EngineEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\AddServer.resx">
+      <DependentUpon>AddServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\NewLocalServer.resx">
+      <DependentUpon>NewLocalServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewStyle.resx">
+      <DependentUpon>NewStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\RemoteConsole.resx">
+      <DependentUpon>RemoteConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ServersTreeView.resx">
+      <DependentUpon>ServersTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Style.resx">
+      <DependentUpon>Style.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\PropertiesEditor.resx">
+      <DependentUpon>PropertiesEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\StyleEditor.resx">
+      <DependentUpon>StyleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tab.resx">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs.resx">
+      <DependentUpon>Tabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FtpUploader.resx">
+      <DependentUpon>FtpUploader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FtpDownloader.resx">
+      <DependentUpon>FtpDownloader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\License.resx">
+      <DependentUpon>License.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TextInput.resx">
+      <DependentUpon>TextInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\License.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FastColoredTextBox.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Console\ConsoleClose.png" />
+    <None Include="Resources\Console\ConsolePlay.png" />
+    <None Include="Resources\Console\ConsoleRefresh.png" />
+    <None Include="Resources\Console\ConsoleStop.png" />
+    <None Include="Resources\Icons\ConsoleIcon.ico" />
+    <None Include="Resources\Icons\FolderCloseIcon.ico" />
+    <None Include="Resources\Icons\FolderOpenIcon.ico" />
+    <None Include="Resources\Icons\LocalIcon.ico" />
+    <None Include="Resources\Icons\MainIcon.ico" />
+    <None Include="Resources\Icons\RemoteIcon.ico" />
+    <None Include="Resources\Icons\TextPageIcon.ico" />
+    <None Include="Resources\Menu\MenuAdd.png" />
+    <None Include="Resources\Menu\MenuConnectLocalServer.png" />
+    <None Include="Resources\Menu\MenuConnectRemoteServer.png" />
+    <None Include="Resources\Menu\MenuCreateLocalServer.png" />
+    <None Include="Resources\Menu\MenuSettings.png" />
+    <None Include="Resources\Menu\MenuStyle.png" />
+    <None Include="Resources\Standard\CloseImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Menu\MenuEngine.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

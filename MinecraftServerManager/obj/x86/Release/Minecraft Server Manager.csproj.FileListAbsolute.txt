@@ -1,0 +1,29 @@
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Release\MinecraftServerManager.exe
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Release\MinecraftServerManager.pdb
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Console.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.ServerConfiguration.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.ServersTreeView.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Tab.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Dialogs.TextInput.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.MainWindow.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Properties.Resources.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.TextEditor.resources
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\Minecraft Server Manager.csproj.GenerateResource.Cache
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.exe
+C:\Users\Piotrek\documents\visual studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.pdb
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Dialogs.FtpUploader.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Dialogs.FtpDownloader.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\bin\Release\MinecraftServerManager.exe.config
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.RemoteConsole.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Tabs.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Menus.AddServer.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Dialogs.License.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Menus.Settings.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.StyleEditor.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.NewStyle.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.Style.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.NewLocalServer.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\Minecraft Server Manager.csprojResolveAssemblyReference.cache
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.ConnectLocalServer.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.ConnectRemoteServer.resources
+C:\Users\Piotrek\Documents\Visual Studio 2010\Projects\MinecraftServerCreator\MinecraftServerCreator\obj\x86\Release\MinecraftServerManager.Controls.EngineEditor.resources
