@@ -5,6 +5,7 @@ Program obecnie pozwala na:
 - operacje na plikach serwera (usuń, zmień nazwę, otwórz, pokaż w eksploratorze Windowsa)
 - edycję plików serwera z kolorowaniem składni
 - dostęp do konsoli serwera i operacje na wielu serwerach jednocześnie
+
 Strona internetowa: http://mcservermanager.tk
 Link do pobrania: http://mcservermanager.tk/Menedżer%20serwera.exe
  
